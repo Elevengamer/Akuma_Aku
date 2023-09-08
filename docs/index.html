@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>&#128420; Akuma &#128154;</title>
+</head>
+
+<body style="word-wrap: break-word">
+
+    <div class="mainContainer" style="word-wrap: break-word">
+
+        <h1>Creating a Website with HTML and CSS</h1>
+
+        <h3>Installing the IDEA (Entwicklungsumgebung)</h3>
+        <div class="linkContainer">
+        <a href="https://code.visualstudio.com/download">Download the IDEA</a>
+        </div>  
+        <div>After downloading the IDEA, you need to add the "Preview for HTML"</div>
+        <div>
+            <img src="sources/Menu_Extensions.png" alt="">
+            <p>open the extensions menu with a click on the marked symbol</p>
+
+            <img src="sources/search_and_extention for download.png" alt="">
+            <p>Enter "HTML Preview" into the search sektion(white marker) and select the first item that you see(yellow
+                marker)</p>
+            <p>It will ask you if you are sure download it because it is the outdated version, but still dowload it, it
+                works just fine</p>
+
+            <img src="sources/extension_tokyo_night_theme.png" alt="">
+            <p>Also, i can recommend to use The Tokyo Night theme for a better looking IDEA, so just type "Tokyo Night"
+                into the Search Area and select the theme(should be the first one)</p>
+
+        </div>
+
+        <div>now you are ready to get started with creating your first own Website! &#129395;&#129395;</div>
+
+
+        <p> Click on the Icon in the Navigationbar that shows explorer (the one with two paper similar images on it)
+        </p>
+        <p> Then you just click on the open folder button, to open or generate a folder for your project.</p>
+        <p> Create a new File called "index.html"</p>
+        <p> Create a new Folder called sources</p>
+
+        <p>I put a Video that show it in the dropdown below</p>
+        <details>
+            <summary>
+                Explanation Video
+            </summary>
+
+            <video controls>
+                <source src="sources/openprojectVSC.mp4" type="video/mp4">
+            </video>
+        </details>
+
+
+        <h3>Creating the basics</h3>
+
+        <p>Type "html:5" and use the auto complete via pressing Tab</p>
+        <p>That creates the basic html file layout and you are ready to go!</p>
+
+        <h3>Coding</h3>
+
+        <pre>
+            <code>
+                
+                &#60;head&#62;
+                    &#60;meta charset="UTF-8"&#62;
+                    &#60;meta name="viewport" content="width=device-width, initial-scale=1.0"&#62;
+                    &#60;title&#62;Document&#60;/title&#62;
+                &#60;/head&#62;
+            </code>
+        </pre>
+        <p>Just change the text between "title" tags from Document to what ever you want!</p>
+
+
+
+        <h4> Creating a Heading</h4>
+
+        <p>To create a heading just use one Of the h-html tags</p>
+        <pre>
+            <code>
+                
+                &#60;h1&#62; Heading text goes here &#60;/h1&#62;
+                &#60;h2&#62; Heading text goes here &#60;/h2&#62;
+                &#60;h3&#62; Heading text goes here &#60;/h3&#62;
+                &#60;h4&#62; Heading text goes here &#60;/h4&#62;
+                &#60;h5&#62; Heading text goes here &#60;/h5&#62;
+                &#60;h6&#62; Heading text goes here &#60;/h6&#62;
+
+            </code>
+        </pre>
+
+        <p>Create a div to wrap your content, that can help you with styling alot but later more</p>
+        <pre>
+            <code>
+                &#60;div&#62; Thats a div tag  &#60;/div&#62;
+            </code>
+        </pre>
+
+        <p>Some html tags and what they are used for</p>
+        <pre>
+            <code>
+                &#60;p&#62; Just plain text &#60;/p&#62;
+                &#60;a href="link url goes here!"&#62; Link &#60;/h1&#62;
+            </code>
+        </pre>
+
+        <p>Let us create a small table</p>
+
+
+
+        <pre>
+            <code>
+                &#60;table&#62;
+                    &#60;thead&#62;
+                        &#60;th colspan="2"&#62Name: &#60;/th&#62 
+                        &#60;!-- Explenation: colspan sais how many columns its width--&#62;
+                        &#60;th&#62; Age &#60;/th&#62;
+                    &#60;/thead&#62;
+                    &#60;tbody&#62;
+                        &#60;tr&#62;
+                            &#60;td&#62;Nils&#60;/td&#62;
+                            &#60;td&#62;Albrecht&#60;/td&#62;
+                            &#60;td&#62;18&#60;/td&#62;
+                        &#60;/tr&#62;
+                        &#60;tr&#62;
+                            &#60;td&#62;Some&#60;/td&#62;
+                            &#60;td&#62;Pers0n&#60;/td&#62;
+                            &#60;td&#62;17&#60;/td&#62;
+                        &#60;/tr&#62;
+                    &#60;/tbody&#62                
+                &#60;/table&#62;
+            </code>
+        </pre>
+
+        <p>This is how it would look like</p>
+        <table>
+            <thead>
+                <th colspan="2">Name: </th> <!-- Explenation: colspan sais how many columns its width-->
+                <th> Age</th>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Nils</td>
+                    <td>Albrecht</td>
+                    <td>18</td>
+                </tr>
+                <tr>
+                    <td>Some</td>
+                    <td>Person</td>
+                    <td>27</td>
+                </tr>
+            </tbody>
+
+        </table>
+
+        <p>A drop down</p>
+        <pre>
+        <code>
+            
+            &#60;details&#62;
+                &#60;summary&#62; Summary text goes here &#60;/summary&#62;
+            &#60;/details&#62;
+        </code>
+    </pre>
+
+
+        <p>An Image</p>
+        <pre>
+        <code>
+            &#60;img src="the path to the source goes here" alt="text that gets shown when image cannot be load"&#62;
+        </code>
+    </pre>
+
+        <p> There are many other different tags but those are the most common</p>
+
+        <h3>Styling</h3>
+
+        <p>For styling you can add a "style" tag or you import a css file</p>
+        <pre>
+    <code>
+        &#60;style&#62;
+            /* CSS-Code goes here */
+        &#60;/style&#62;
+    </code>
+</pre>
+
+        <details>
+            <summary>Video for Details</summary>
+            <video controls>
+                <source src="sources/stylesheet_impl.mp4" type="video/mp4">
+            </video>
+        </details>
+
+
+        <p>You have multiple options to style your website using css. You can add a class="" and an id="" to your tag
+            for even more options</p>
+
+        <pre>
+        <code>
+            &#60;div class="classNameHere" id="idHere"&#62;Just a noraml div&#60;/div&#62;
+        </code>
+    </pre>
+
+        <p>Some css code to style that</p>
+        <pre>
+        <code>
+            /* File Start */
+
+            /* Lets start with just changing the div -> effect changes all div tags */
+            div{
+                color: green; /* This chnages the fontcolor of all divs to green*/
+            }
+
+            .classNameHere{
+                color: purple; /* This changes the fontcolor of all tags with the called classname to pruple */
+            }
+
+            #idHere{
+                color: red; /* This changes the font color of tags with the Id to red*/
+            }
+
+            /*
+
+                For sure you can change way more than the font color but that will be too much info... 
+                i can add a example.css for downloading
+
+            */
+
+            /* File End */
+        </code>
+    </pre>
+
+        <div class="linkContainer">
+            <a href="example.css" download>Example CSS File</a>
+        </div>
+        <div class="spaceBetween"></div>
+        <div class="linkContainer">
+            <a href="index.html" download>This Website</a>
+        </div>
+    </div>
+
+</body>
+
+</html>
+<style>
+    body{
+        max-width: 99vw;
+    }
+    pre code {
+        background-color: #eee;
+        border: 1px solid #999;
+        display: block;
+        padding: 20px;
+        width: max-content;
+        word-wrap: break-word  
+    }
+
+    h1{
+        width: 50%;
+        margin-left: 25%;
+        margin-right: 25%;
+        text-align: center;
+        border-bottom: 4px solid green;
+    }
+    .mainContainer{
+        display: block;
+    }
+
+a{
+    color: greenyellow;
+}
+
+   .linkContainer{
+        display: block;
+        text-decoration: none;
+        color: greenyellow;
+        background-color: black;
+        padding: 2%;
+        border: 2px solid greenyellow;
+        width: fit-content;
+        margin: auto;
+border-radius: 15px;
+
+
+       }
+       .spaceBetween{
+        height: 2px;
+        width: 100%;
+       }
+
+
+
+    @media(min-width:1000px){
+        .mainContainer{
+            margin-left: 25%;
+            margin-right: 25%;
+            width: 50%;
+        }
+    }
+
+</style>

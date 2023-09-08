@@ -1,0 +1,319 @@
+.backLinkButtonText {
+    margin-top: 4%;
+    width: 20vw;
+    margin-left: 40%;
+    margin-right: 40%;
+    padding: 5px;
+    text-align: center;
+    border: 3px solid var(--white);
+    border-radius: 20px;
+    box-shadow: 0px 0px 4px 4px var(--blueB),
+        inset 0px 0px 2px 4px var(--blueD);
+    text-shadow: 3px 3px 3px var(--blueD);
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 1px var(--blueB);
+}
+
+.futHeading {
+    margin-top: 3%;
+    margin-left: 15%;
+    margin-right: 15%;
+    width: 70%;
+    text-align: center;
+    border: 3px solid var(--white);
+    padding: 5px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 4px 4px var(--blueB),
+        inset 0px 0px 2px 4px var(--blueD);
+    text-shadow: 3px 3px 3px var(--blueD);
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 1px var(--blueB);
+}
+
+.tabSelectionFut {
+    margin: 5px;
+}
+
+/*table,
+th,
+td {
+    border: 2px solid var(--black);
+    border-collapse: collapse;
+}
+
+table {
+    border: 2px solid var(--white);
+    box-shadow: 0px 0px 4px 2px var(--blueB),
+        inset 0px 0px 2px 2px var(--blueD);
+}
+
+th,
+td {
+    box-shadow: inset 0px 0px 2px 2px var(--blueD);
+}
+*/
+
+/* the style for table th and td is duplicated because i merged two files */
+
+.futCardBody {
+    background-color: var(--grey);
+}
+
+.img-fluid {
+    border: 2px solid var(--white);
+    padding: 5px;
+    box-shadow: 0px 0px 4px 2px var(--blueB),
+        inset 0px 0px 2px 2px var(--blueD);
+
+}
+
+.cardHeadOrder {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    background-color: var(--grey);
+}
+
+.headerContainer {
+    flex: 1;
+    height: fit-content;
+    min-width: 50%;
+    padding: 2px;
+    margin: 2px;
+}
+
+.utContainer {
+    min-height: 81vh;
+    margin-top: 3%;
+    border: 2px solid var(--grey);
+    box-shadow: 0px 0px 4px 4px var(--greenB);
+    align-items: center;
+    height: fit-content;
+    padding-bottom: 2%;
+
+}
+
+@media (min-height:700) {
+    .headerContainer {
+        max-height: 30vh;
+    }
+}
+
+@media (min-width:555px) {
+    .playersCard {
+        width: 100%;
+        height: fit-content;
+    }
+
+    .img-fluid {
+        max-width: 20vw;
+        max-height: auto;
+    }
+}
+
+@media (min-width:1000px) {
+
+    .playersCard {
+        margin-left: 15%;
+        margin-right: 15%;
+        width: 70%;
+        height: fit-content;
+    }
+}
+:root {
+    --black: black;
+    --white: white;
+    --greenB: rgb(14, 185, 39);
+    --grey: rgb(33, 37, 41);
+    --blueB: #00FFFF;
+    --blueD: #0033FF;
+    --redB: rgb(242, 8, 10);
+}
+
+.nav-tabs .nav-link {
+    color: var(--white);
+    background-color: var(--blueD);
+    border: 2px solid var(--black);
+    box-shadow: 2px 1px 6px 1.5px var(--blueB);
+    border-bottom: 2px solid var(--blueB);
+    margin-bottom: 2px;
+}
+
+.nav-tabs .nav-link:hover {
+    background-color: var(--grey);
+    color: var(--blueB);
+    border: 2px solid var(--blueB);
+    border-bottom: 2px solid var(--blueD);
+    box-shadow: 2px 1px 6px 1.5px var(--white);
+}
+
+.nav-tabs .nav-link.active {
+    background-color: var(--greenB);
+    border: 2px solid var(--black);
+    color: var(--white);
+    box-shadow: 0px 0px 3px 3px var(--greenB);
+    border-bottom: 2px solid var(--black);
+}
+
+body {
+    background-color: var(--black);
+    color: var(--white);
+}
+
+.mainContainer {
+    border: 2px solid var(--grey);
+    margin-top: 3%;
+    padding-top: 2%;
+    margin-bottom: 3%;
+    box-shadow: 0px 0px 10px 10px var(--greenB);
+    min-height: 90vh;
+    max-height: calc(max-content+10px);
+    padding-bottom: 3%;
+}
+
+.cardContainer {
+    background-color: var(--grey);
+    color: var(--blueB);
+    margin: auto;
+    margin-top: 5%;
+    box-shadow: 0px 0px 4px 4px var(--greenB);
+    margin-bottom: 5%;
+}
+
+.tableBorder {
+    border: 2px solid var(--black);
+    border-collapse: collapse;
+}
+
+.colPad {
+    padding-left: 4px;
+    padding-right: 4px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+
+table {
+    width: 100%;
+}
+
+th,
+td {
+    width: 50%;
+}
+
+td {
+    text-align: center;
+}
+
+img {
+    align-self: center;
+}
+
+.elevenTitle {
+    border-bottom: 2px solid var(--black);
+    width: 100%;
+    border-bottom-width: 100%;
+}
+
+a {
+    color: var(--white);
+    text-shadow: 2px 2px var(--blueD);
+    text-decoration: none;
+    font-style: italic;
+}
+
+.textWithLink {
+    background-color: var(--black);
+    padding-left: 3px;
+    padding-right: 3px;
+    border-radius: 3px;
+    border: 1px solid var(--white);
+
+}
+
+.cards {
+    background-color: var(--grey);
+    color: var(--blueB);
+    box-shadow: 0px 0px 4px 4px var(--greenB);
+    border: 2px solid var(--black);
+    margin: 3%;
+}
+
+.card-title {
+    border-bottom: 2px solid var(--black);
+}
+
+
+.welcomeHeading {
+    padding: 3px;
+    margin: 25%;
+    text-align: center;
+    width: 50%;
+    border-radius: 20px;
+    border: 2px solid var(--grey);
+    box-shadow: 0px 0px 4px 4px var(--greenB);
+    color: var(--blueB);
+    text-shadow: 2px 2px var(--blueD);
+}
+
+.innerContainer {
+    margin-top: 3%;
+    height: 81vh;
+    border: 2px solid var(--grey);
+    box-shadow: 0px 0px 4px 4px var(--greenB);
+    align-items: center;
+}
+
+.card-link {
+    border: 2px solid var(--white);
+    box-shadow: 0px 0px 3px 3px var(--blueD),
+        inset 0px 0px 3px 3px var(--black);
+    padding: 4px;
+    border-radius: 10px;
+}
+
+.cardBox {
+    display: inline-block;
+    width: min-content;
+    height: min-content;
+    margin: 1%;
+}
+
+.cardHolderAM {
+    padding: 10%;
+    height: 80%;
+    width: 80%;
+}
+
+.headingDC {
+    margin-top: 3%;
+    width: 50%;
+    margin-left: 25%;
+    margin-right: 25%;
+    text-align: center;
+    border: 2px solid var(--blueB);
+    background-color: var(--grey);
+    border-radius: 20px;
+    box-shadow: 0px 0px 35px 7px var(--blueD),
+        inset 0px 0px 5px 5px var(--black);
+
+}
+
+.cardDC {
+    width: 70%;
+    background-color: var(--grey);
+    color: var(--blueB);
+    box-shadow: 0px 0px 4px 4px var(--greenB);
+    border: 2px solid var(--black);
+    margin: 3%;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+li {
+    border: 2px solid var(--white);
+    box-shadow: 0px 0px 3px 3px var(--blueD);
+    border-radius: 10px;
+    margin: 4px;
+    color: var(--blueD);
+}
